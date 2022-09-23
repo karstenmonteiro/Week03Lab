@@ -12,14 +12,18 @@
         <title>Age Calculator</title>
     </head>
     <body>
+        <!-- form -->
         <h1>Age Calculator</h1>
         <form method="post" action="age">
-            Enter your age: <input type="text" name="age"><br>
-            <input type="submit" value="Age next birthday">
+            Enter your age: <input type="text" name="age"><br><br>
+            <input type="submit" value="Age next birthday"><br>
+            
+            <div>
+                <span>${nullErrorMsg}</span>
+                <span>${charErrorMsg}</span>
+                <span>${nextAgeMsg}</span>
+            </div>
+            <a href="arithmetic">Arithmetic Calculator</a>
         </form>
-        <!-- display error message -->
-        <p>${nullErrorMsg}</p>
-        <p>${charErrorMsg}</p>
-        <p>${nextAgeMsg}</p>
     </body>
 </html>
