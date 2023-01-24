@@ -21,9 +21,10 @@
             <div>
                 <span>${nullValueMsg}</span>
                 <span>${invalidValueMsg}</span>
-                <span>${resultMsg}</span>
+                <span>${nextAgeMsg}</span>
             </div>
-            <a href="arithmetic">Arithmetic Calculator</a>
         </form>
+        <!-- link to arithmetic calculator -->
+        <a href="arithmetic">Arithmetic Calculator</a>
     </body>
 </html>
